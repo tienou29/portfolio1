@@ -1,0 +1,247 @@
+nav {
+    text-align: center;
+    
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(1px);
+    background: #f7f7f7de;
+}
+
+.img-fluid{
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+/* latin-ext */
+@font-face {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/tomorrow/v15/WBLmrETNbFtZCeGqgRXce2DwLQ.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+.btn  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    outline: none;
+    background: #f7f7f7de;
+    color: #f39c12;
+    cursor: pointer;
+    padding: 20px 25px;
+    position: relative;
+    font-family: Tomorrow;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+nav a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    /* background: #f7f7f7a1; */
+}
+
+
+element.style {
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+nav a {
+    display: inline-block;
+    padding: 20px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    /* background: #f7f7f7a1; */
+}
+
+p, a {
+    font-size: 12;
+    font-weight: 400;
+    color: var(--nightgrey);
+}
+
+user agent stylesheet
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+nav {
+    text-align: center;
+    /* background: rgba(0, 0, 0, 0.8); */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 11;
+    display: flex;
+    justify-content: center;
+    /**backdrop-filter: blur(1px);**/
+    background: #f7f7f7de;
+}
+
+
+a#con {
+    background: (#FF7F50);
+    transition: all .3s cubic-bezier(.17, .65, .25, .90);
+    color: white;
+    background: #FF7F50;
+}
+.a #con:hover {
+    filter: grayscale(100%);
+    transition: all .3s ease;
+    transform: translate3D(0,20px,0) scale(1.3);
+    overflow: hidden;
+}
+
+
+
+a:-webkit-any-link {
+    cursor: pointer;
+}
+
+header {
+    z-index: 2;
+    padding-top: 87px;
+    position: relative;
+    border-radius: 3em;
+    background: white;
+    /* border-bottom: 10px solid #7bd6c5; */
+    background-size: auto auto, auto auto;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    
+}
+
+.box{
+    /** color:#fff!important;background-color:	#FFFFE0!important; **/
+    padding: 10px;
+    border: 3px solid #FF4500;
+    z-index: 2;
+}
+
+.box img {
+    border-radius: 3rem;
+    border-style: solid;
+    border-width: 10px;
+    border-color: #FF7F50;
+    max-width: 300px;
+    max-height: 200px;
+    align-self: center;
+    transition: all .3s ease;
+    overflow: hidden;
+    margin: 20px 0;
+}
+
+.box img{
+    max-width:150px;
+    height:150px;
+    display: block;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.box img {
+    filter: grayscale(100%);
+    transition: all .3s ease;
+}
+
+.box img:hover {
+    filter: grayscale(100%);
+    transition: all .3s ease;
+    transform: translate3D(0,5px,0) scale(1.1);
+    overflow: hidden;
+}
+
+.box.heading,
+.box.text{
+
+    width: 100%;
+    padding: 0 5px;
+    min-width: 300px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+h2,h4 {
+    text-transform: uppercase;
+}
+body {
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+}
+body {
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+}
+:root {
+    --cyan: #41c4ab;
+    --cyanlight: #7bd6c5;
+    --pink: #d67bba;
+    --white: #ffffff;
+    --basegrey: #f2f2f2;
+    --midgrey: #A1A1A1;
+    --darkgrey: #444444;
+    --nightgrey: #252525;
+    --bluemarine:rgb(32, 0, 126) ;
+    --yellow-color: #fcee09; 
+    --red-color: #ff003c;
+    --black-color: #050a0e;
+    --blue-color: #00f0ff
+}
+nav a:hover {
+    color: #FFA500;
+  }
+
+.work h2 span {
+    border-bottom: 10px solid var(--bluemarine);
+}
+
+.projects h2 span {
+    border-bottom: 10px solid var(--cyanlight);
+}
+
+.education h2 span {
+    border-bottom: 10px solid var(--pink);
+}
+
+h2 {
+    font-size: 30px;
+    margin-top: 25px;
+    font-weight: 200;
+    line-height: 1.6em;
+}
+
+.cv-section, .project-section {
+    padding-top: 65px;
+}
+
+h1, h2 {
+    font-family: 'Lato',sans-serif;
+}
+
+.content-wrap.slim {
+    padding: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
