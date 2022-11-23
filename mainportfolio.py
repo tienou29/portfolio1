@@ -9,7 +9,6 @@ import streamlit as st
 from PIL import Image
 import base64
 from streamlit_option_menu import option_menu
-from streamlit_extras.let_it_rain import rain
 from streamlit_extras.mention import mention
 
 
