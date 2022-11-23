@@ -78,7 +78,7 @@ bins = current_dir / "assets" / "districtbins.png"
 crypto = current_dir / "assets" / "crypto.png"
 streamlit = current_dir / "assets" / "streamlitdash.png"
 vtt = current_dir / "assets" / "vtt.jpg"
-cap = current_dir / "assets" / "rennesmarathon.jpg"
+cap = current_dir / "assets" / "rennesmarathon.JPG"
 
 def main():
     
